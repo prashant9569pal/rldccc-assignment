@@ -1,0 +1,104 @@
+@media only screen and (min-width: 992px){
+    .nav{
+        background-color:#212731;
+        height: 64px;
+        width: 100%;
+    }
+    
+    .content{
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-left: 300px;
+        margin-right: 300px;
+        
+    }
+    .search{
+        margin-top: 10px;
+        position: relative;
+        display: flex;
+        background-color: white;
+        align-items: center;
+        border-radius: 8px;
+        width: 258px;
+        padding-left: 10px;
+        margin-top: 14px;
+        height: 37px;
+    }
+    
+    input{    
+        border: none;
+        font-size: large;
+        padding-left: 5px;   
+    }
+    
+    input:focus{
+        outline:none;
+    }
+    
+    .cat{
+        padding-top: 10px;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: "Inter";
+        color: #D1D6DA;
+        cursor: pointer;
+    }
+    
+    .left{
+        padding-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .nav{
+        background-color:#212731;
+        height: 64px;
+        width: 100%;
+    }
+    
+    .content{
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+    }
+    .search{
+        margin-top: 10px;
+        position: relative;
+        display: flex;
+        background-color: white;
+        align-items: center;
+        border-radius: 8px;
+        width: 258px;
+        padding-left: 10px;
+        margin-top: 14px;
+        height: 37px;
+    }
+    
+    input{    
+        border: none;
+        font-size: large;
+        padding-left: 5px;   
+    }
+    
+    input:focus{
+        outline:none;
+    }
+    
+    .cat{
+        padding-top: 10px;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: "Inter";
+        color: #D1D6DA;
+        cursor: pointer;
+        display: none;
+    }
+    
+    .left{
+        padding-left: 10px;
+    }
+}
